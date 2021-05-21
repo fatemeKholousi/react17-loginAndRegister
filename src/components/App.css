@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  overflow-y: scroll;
+}
+
+/* .password_n_email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+/* .sign_up_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.sign_up_form {
+  margin: auto;
+  padding: 50px;
+  width: 30%;
+  background-color: rgba(95, 109, 117, 255);
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name_su {
+  margin-left: 10%;
+}
+#name_su,
+#lname_su {
+  padding-right: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 45%;
+  height: 40px;
+}
+#email_su,
+#password_su,
+#education_select,
+#edu_place_su {
+  padding-right: 10px;
+  margin-bottom: 20px;
+  display: block;
+  width: 300px;
+  height: 40px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  background-color: #25333c;
+  color: aliceblue;
+}
+#register_btn {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(29, 178, 139);
+  outline: none;
+  border: #5f6d75 solid 1px;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+#title_for_signup_form {
+  margin-bottom: 30px;
+  color: white;
+}
+#edu_place_su {
+  display: none;
+}
