@@ -60,8 +60,11 @@ input[type="password"],
 select {
   background-color: #25333c;
   color: aliceblue;
+  border: none;
+  outline: none;
 }
-#register_btn {
+#register_btn,
+#login_btn {
   width: 300px;
   height: 40px;
   background-color: rgb(29, 178, 139);
@@ -71,10 +74,28 @@ select {
   color: white;
   font-weight: bolder;
 }
-#title_for_signup_form {
+#title_for_signup_form,
+#title_for_login_form {
+  text-align: center;
   margin-bottom: 30px;
   color: white;
 }
-#edu_place_su {
-  display: none;
+
+.mainBTN {
+  background-color: rgb(29, 178, 139);
+  padding: 10px 3rem;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+.mainBTN:hover {
+  background-color: rgb(195, 197, 197);
+}
+#containerBTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
